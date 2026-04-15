@@ -1,4 +1,4 @@
-﻿# Template d'instance
+# Template d'instance
 resource "google_compute_instance_template" "tp_template" {
   name         = "web-server-template"
   machine_type = "e2-micro"

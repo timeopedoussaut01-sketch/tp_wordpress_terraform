@@ -1,4 +1,4 @@
-﻿# VPC
+# VPC
 resource "google_compute_network" "default" {
   name                    = "tp-vpc"
   auto_create_subnetworks = false
@@ -48,7 +48,7 @@ resource "google_compute_target_http_proxy" "default" {
   url_map = google_compute_url_map.default.id
 }
 
-# Forwarding Rule (Point d'entrée final)
+# Forwarding Rule (Point d'entr�e final)
 resource "google_compute_global_forwarding_rule" "default" {
   name       = "http-content-rule"
   target     = google_compute_target_http_proxy.default.id

@@ -1,4 +1,4 @@
-﻿variable "Project-id" {
+variable "project_id" {
   type    = string
   default = "terraform-tp-493411"
 }

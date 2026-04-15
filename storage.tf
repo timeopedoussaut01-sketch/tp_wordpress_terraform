@@ -1,5 +1,5 @@
 ﻿resource "google_storage_bucket" "tp_bucket" {
-  name          = "bucket-\-dev"
+  name          = "bucket-${var.project_id}-dev"
   location      = var.region
   force_destroy = true
 

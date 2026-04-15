@@ -1,4 +1,4 @@
-﻿output "loadbalacing_ip" {
+output "loadbalacing_ip" {
   value = google_compute_global_address.default.address
 }
 output "db_private_ip" {

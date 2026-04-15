@@ -1,4 +1,4 @@
-﻿resource "google_sql_database_instance" "main" {
+resource "google_sql_database_instance" "main" {
   name             = "tp-sql-instance"
   database_version = "MYSQL_8_0"
   region           = var.region

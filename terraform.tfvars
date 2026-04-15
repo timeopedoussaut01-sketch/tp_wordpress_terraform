@@ -1,1 +1,1 @@
-﻿Project-id = "terraform-tp-493411"
+﻿project_id = "terraform-tp-493411"
