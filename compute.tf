@@ -26,7 +26,7 @@ resource "google_compute_instance_template" "tp_template" {
   }
 }
 
-# Manager du groupe d'instances (Le fameux tp_igm)
+# Manager du groupe d'instances
 resource "google_compute_region_instance_group_manager" "tp_igm" {
   name               = "web-server-igm"
   region             = var.region
