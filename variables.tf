@@ -1,17 +1,9 @@
-variable "project_id" {
-  type = string
+﻿variable "Project-id" {
+  type    = string
+  default = "terraform-tp-493411"
 }
 
 variable "region" {
   type    = string
   default = "europe-west1"
-}
-
-variable "env" {
-  type = string
-}
-
-variable "create_storage" {
-  type    = bool
-  default = true
 }
